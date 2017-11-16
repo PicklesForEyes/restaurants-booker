@@ -14,6 +14,11 @@ $(document).ready(function() {
 
   function addTable(obj) {
     //send to express server here
+    $.post('/api/tables', function(req, res) {
+      var newTable = obj;
+
+
+    })
   }
 
 
@@ -30,6 +35,8 @@ $(document).ready(function() {
     drawHome();
   })
 
-
+  function drawTables() {
+    // post request to add data
+  }
 
 })

@@ -1,0 +1,22 @@
+{
+  "name": "hot-food",
+  "version": "1.0.0",
+  "description": "Restaurant booking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PicklesForEyes/restaurants-booker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PicklesForEyes/restaurants-booker/issues"
+  },
+  "homepage": "https://github.com/PicklesForEyes/restaurants-booker#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
