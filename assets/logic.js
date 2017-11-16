@@ -16,8 +16,6 @@ $(document).ready(function() {
     //send to express server here
     $.post('/api/tables', function(req, res) {
       var newTable = obj;
-
-
     })
   }
 
