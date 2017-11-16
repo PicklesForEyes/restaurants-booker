@@ -1,5 +1,18 @@
 body {
 	padding: 0 7%;
+	font-size:12px;
+}
+
+legend{
+	font-size:21px;
+}
+
+a{
+	margin-left:25px;
+}
+
+.btn{
+	font-size:18px;
 }
 
 footer {
