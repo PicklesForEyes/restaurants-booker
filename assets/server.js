@@ -14,7 +14,7 @@ app.listen(PORT, function() {
 });
 
 app.get("/", function(req, res){
-	res.sendFile(path.join(__dirname, 'tables.html'))
+	res.sendFile(path.join(__dirname, '../index.html'))
 });
 
 app.get("api/tables", function(req, res){
