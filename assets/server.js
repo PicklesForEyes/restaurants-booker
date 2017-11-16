@@ -24,3 +24,9 @@ app.get("/api/tables", function(req, res){
   res.json(tables)
 });
 
+app.post("/api/new", function(req, res) {
+  var newRow = req.body;
+  newRow.routeName = newRow.name.replace(/\s+/g, "").toLowerCase();
+  console.log(newRow);
+  tables.push(newRow);
+})
