@@ -9,3 +9,9 @@ var PORT = 3000;
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
+app.get("/", function(req, res){
+	res.sendFile(path.join(_dirname, tables.html))
+});
+app.get("api/tables", function(req, res){
+  res.JSON(tables)
+});

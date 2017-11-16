@@ -10,45 +10,59 @@
 	<link rel="stylesheet" href="assets/restaurants.css">
   </head>
   <body>
-  	<div class='jumbotron text-center'>
-  		<h1>Eat Some Damn Food</h1>
-  		<hr>
-  		<h2>Current reservations and waiting list</h2>
-  		<br>
-  		<a class='btn btn-primary' href='reserve.html'>Make Reservations</a>
-  	</div>  
+  	<div class='container'>
+		<div class='row'>
+			<div class='col-xl-12'>
+				<div class="jumbotron text-center">
 
-  	<div class="panel panel-default">
-	  <div class="panel-heading">
-	    <h3 class="panel-title">Current Reservations</h3>
-	  </div>
-	  <div class="panel-body">
-	    <div id='reservations'></div>
-	  </div>
+					<h1>Haute Restaurant</h1>
+					<hr>
+					<p>Current reservations and waiting list</p>
+
+					<a class='btn btn-primary btn-lg' href='index.html'>
+						<p><span class='glyphicon glyphicon-home' style="color:white"></span> Home</p>
+					</a>
+
+					<a class='btn btn-primary btn-lg' href='reserve.html'>
+						<p><span class='glyphicon glyphicon-book' style="color:white"></span>
+						Make A Reservation</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	  	<div class="panel panel-default">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Current Reservations</h3>
+		  </div>
+		  <div class="panel-body">
+		    <div id='reservations'></div>
+		  </div>
+		</div>
+
+		<div class="panel panel-default">
+		  	<div class="panel-heading">
+		    	<h3 class="panel-title">Waiting List</h3>
+		  	</div>
+		  	<div class="panel-body">
+		   		<div id='wait-list'></div>
+		  	</div>
+		</div>
+
+		<footer class="page-footer blue">
+		    <div class="container-fluid">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <h5 class="title">Control Panel</h5>
+		                <hr>
+		                <a href="#!">Clear Table</a>
+	                    <a href="#!">API Table Link</a>
+	                    <a href="#!">API Wait List</a>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
 	</div>
-
-	<div class="panel panel-default">
-	  <div class="panel-heading">
-	    <h3 class="panel-title">Waiting List</h3>
-	  </div>
-	  <div class="panel-body">
-	    <div id='wait-list'></div>
-	  </div>
-	</div>
-
-	<footer class="page-footer blue">
-	    <div class="container-fluid">
-	        <div class="row">
-	            <div class="col-md-12">
-	                <h5 class="title">Control Panel</h5>
-	                <hr>
-	                <a href="#!">Clear Table</a>
-                    <a href="#!">API Table Link</a>
-                    <a href="#!">API Wait List</a>
-	            </div>
-	        </div>
-	    </div>
-	</footer>
 	
 	<script
   		src="https://code.jquery.com/jquery-3.2.1.min.js"
