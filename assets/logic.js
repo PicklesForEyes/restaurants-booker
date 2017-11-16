@@ -4,10 +4,10 @@ $(document).ready(function() {
 
   $('#submit').on('click', function() {
     var obj = {
-      name : $('name-input').val().trim(),
-      phoneNum : $('phone-number-input').val().trim(),
-      email : $('email-input').val().trim(),
-      unique : $('id').val().trim()
+      name : $('#name-input').val().trim(),
+      phoneNum : $('#phone-number-input').val().trim(),
+      email : $('#email-input').val().trim(),
+      unique : $('#id').val().trim()
     }
     addTable(obj);
   });
@@ -18,7 +18,6 @@ $(document).ready(function() {
       var newTable = obj;
     })
   }
-
 
   //page changing, dummy variables
   $('#tables').on('click', function() {
@@ -34,7 +33,7 @@ $(document).ready(function() {
   })
 
   function drawTables() {
-    // post request to add data
+    
   }
 
 })
